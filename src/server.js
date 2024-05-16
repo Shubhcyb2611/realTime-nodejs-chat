@@ -51,3 +51,4 @@ mongoose.connect(dbUrl, { useMongoClient: true }, (err) => {
 var server = app.listen(3001, () => {
   console.log("server is running on port", server.address().port);
 });
+//https://www.freecodecamp.org/news/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804/
